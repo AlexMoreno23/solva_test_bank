@@ -39,7 +39,7 @@ public class UsdRateServiceImplements implements UsdRateService {
 
 
     @PostConstruct
-    @Scheduled(cron = "0 0 9,15,19 * * MON-FRI")
+    @Scheduled(cron = "0 0 9,15,21 * * MON-FRI")
     @Override
     public void saveRateToDb() {
         usdCourseRepo.save(getUsdRateFromDto(courseRequestApi.getCourse()));

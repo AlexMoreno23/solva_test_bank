@@ -24,9 +24,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo("SolvaTest Rest APIs",
-                "APIs for SolvaTest. n\"" +
-                        "Transaction Controller - it is used to save transactions and set limits for a certain category. n\"" +
-                        "Limit Controller - it is used to extract all limits for a specific user.",
+                "APIs for SolvaTest. n\"" ,
                 "1.0",
                 "Terms of service",
                 new Contact("test", "www.org.com", "test@emaildomain.com"),
